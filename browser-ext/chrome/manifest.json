@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Snap2AI",
+  "version": "1.0.0",
+  "description": "右クリックから Snap2AI で画面を切り取り、AI のチャット欄に貼り付けます（送信は押しません）",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuEVaWuMS8UZhfpl0P7YoCLPWS27x+Ve8+SulZlp1CcsIf+GkNABtrPYVIuJjyHuk4ECM+N0Akgn9lv9hkbNeTf4Kefs/Pp3hmuV0GzGGKsYVxIoBWjI0cmACRoIHRpivaxqiVLc2uRa91J6vxIbV/jzKDEC3r6MUDLE1lnWQOctYXr6dBWI+a0vCtbLLzcEpU3IjXrUKTupAqI2yJO1Kk9cp74j0b+/tyTbdcHphFDCaCPzs9n8guMU11xiDWH9GJlMb8cf04sNoY8gDJ94PWzxjRdAf1lj37OMRuJvGN8OO5+9IMt5I61X3NwcHVWaT77Z3K3209AtAvOn7I39GdwIDAQAB",
+  "permissions": [
+    "contextMenus",
+    "nativeMessaging"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "homepage_url": "https://github.com/ryofssmax-a11y/snap2ai"
+}

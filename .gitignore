@@ -1,0 +1,13 @@
+# 個人データ・生成物は入れない
+*.ini
+*.ini.bak
+*.log
+*.exe
+*.zip
+*.xpi
+keys/
+*.pem
+shots/
+dist/
+tools/
+browser-ext/host-*.json
